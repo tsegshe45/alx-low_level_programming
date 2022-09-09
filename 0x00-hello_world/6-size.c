@@ -9,15 +9,11 @@
 */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-
-	return (0);
-
-char c;
-int i;
-long li;
-long long lli;
-float f;
+	char c;
+	int i;
+	long li;
+	long long lli;
+	float f;
 
 printf("Size of a char: %ld byte(s)\n", sizeof(c));
 printf("Size of an int: %ld byte(s)\n", sizeof(i));
