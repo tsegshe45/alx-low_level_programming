@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _create_array – creates an array of chars, and
+ * create_array – creates an array of chars, and
  * initializes it with a specific char.
  *@size: Size of the array
  *@c: Character to insert
@@ -9,7 +9,7 @@
  *pointer to array if everything is normal.
  */
 
-char _create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int index;
