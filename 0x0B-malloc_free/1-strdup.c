@@ -19,7 +19,7 @@ char *_strdup(char *str)
 
 	for (index = 0; str[index]; index++)
 		len++;
-	cpy =  malloc(sizeof(char) * (len + 1))
+	cpy = malloc(sizeof(char) * (len + 1))
 
 		if (cpy == NULL)
 			return (NULL);
@@ -29,7 +29,7 @@ char *_strdup(char *str)
 		cpy[index] = str[index];
 	}
 
-	Cpy[len] = ‘\0’;
+	cpy[len] = ‘\0’;
 
 	Return (cpy);
 }
